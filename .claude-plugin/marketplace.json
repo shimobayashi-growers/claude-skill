@@ -1,0 +1,19 @@
+{
+  "name": "claude-skill",
+  "owner": {
+    "name": "shimobayashi-growers"
+  },
+  "metadata": {
+    "description": "Claude Code skills collection by growers",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "growers",
+      "description": "A collection of custom Claude Code skills",
+      "source": "./",
+      "strict": false,
+      "skills": []
+    }
+  ]
+}
