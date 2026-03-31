@@ -13,7 +13,9 @@
       "description": "A collection of custom Claude Code skills",
       "source": "./",
       "strict": false,
-      "skills": []
+      "skills": [
+        "./skills/design-principles"
+      ]
     }
   ]
 }
