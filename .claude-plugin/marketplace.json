@@ -4,17 +4,30 @@
     "name": "shimobayashi-growers"
   },
   "metadata": {
-    "description": "Claude Code skills collection by growers",
-    "version": "1.0.0"
+    "description": "Reusable Claude Code skills for design, analytics, workflow, and UI/UX",
+    "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "growers",
-      "description": "A collection of custom Claude Code skills",
+      "description": "Reusable skills for design, analytics, workflow, and UI/UX",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/design-principles"
+        "./skills/design-principles",
+        "./skills/ui-ux-pro-max",
+        "./skills/ga4-adhoc-analysis",
+        "./skills/ga4-anomaly-detect",
+        "./skills/ga4-custom-design",
+        "./skills/ga4-data-exploration",
+        "./skills/ga4-demo-report",
+        "./skills/ga4-learning-quiz",
+        "./skills/ga4-page-issue",
+        "./skills/ga4-property-audit",
+        "./skills/implement-to-pr"
+      ],
+      "commands": [
+        "./commands/create-pr.md"
       ]
     }
   ]
