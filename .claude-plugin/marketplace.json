@@ -24,7 +24,8 @@
         "./skills/ga4-learning-quiz",
         "./skills/ga4-page-issue",
         "./skills/ga4-property-audit",
-        "./skills/implement-to-pr"
+        "./skills/implement-to-pr",
+        "./skills/slack-mentions-unreplied"
       ],
       "commands": [
         "./commands/create-pr.md"
